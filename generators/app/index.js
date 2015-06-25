@@ -6,7 +6,7 @@ var yosay = require('yosay');
 module.exports = yeoman.generators.Base.extend({
 
   paths: function () {
-    this.destinationRoot('chapter01');
+    this.destinationRoot('chapter02');
   },
 
   writing: {
@@ -22,18 +22,6 @@ module.exports = yeoman.generators.Base.extend({
       this.fs.copy(
         this.templatePath('_README.md'),
         this.destinationPath('README.md')
-      )
-      this.fs.copy(
-        this.templatePath('_triangle.md'),
-        this.destinationPath('triangle.md')
-      )
-      this.fs.copy(
-        this.templatePath('_fizzbuzz.md'),
-        this.destinationPath('fizzbuzz.md')
-      )
-      this.fs.copy(
-        this.templatePath('_chessboard.md'),
-        this.destinationPath('chessboard.md')
       )
       this.fs.copy(
         this.templatePath('_index.js'),

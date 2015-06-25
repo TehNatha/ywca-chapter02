@@ -1,433 +1,588 @@
-// Chapter 1 Exercises
+/*---------------------    EXPRESSIONS AND STATEMENTS    ---------------------*/
 
-/*-----------------------------    NUMBERS    ------------------------------*/
-
-// Numbers 1
-// Make the function return a value that is a number.
-Exercises.numbers1 = function() {
-
-  return /* your answer here */ ;
-
-};
-
-// Numbers 2
-// Make the function return a value that is a negative number.
-Exercises.numbers2 = function() {
+// Expressions 1
+// Make the function return a nested expression (use parentheses) whose
+// evaluated value is not undefined.
+Exer.expressions1 = function () {
 
   return /* your answer here */ ;
 
 };
 
-// Numbers 3
-// Make the function return a value that is between 4 and 5.
-Exercises.numbers3 = function() {
+/* jshint ignore:start */
+// Statements 1
+Exer.statements1 = function () {
 
-  return /* your answer here */ ;
+  // Write a statement that is not undefined.
+
+};
+/* jshint ignore:end */
+
+/*-----------------------------    VARIABLES    ------------------------------*/
+
+// Variables 1
+Exer.variables1 = function () {
+
+  // Write a statement that declares a variable.
+
+  // Return that variable.
 
 };
 
-// Numbers 4
-// Make the function return a value that is between 10e4 and 10e5.
-Exercises.numbers4 = function() {
+// Variables 2
+Exer.variables2 = function () {
 
-  return /* your answer here */ ;
+  // Write a statement that declares a variable.
 
-};
+  // Write a statement to assign a number value to your variable.
 
-/*---------------------------    ARITHMETIC    -----------------------------*/
-
-// Arithmetic 1
-// Make the function return an expression that evaluates to 10.
-Exercises.arithmetic1 = function() {
-
-  return /* your answer here */ ;
+  // Return the variable.
 
 };
 
-// Arithmetic 2
-// Fix the operators so the expression evaluates to 7.
-Exercises.arithmetic2 = function() {
+// Variables 3
+Exer.variables3 = function () {
 
-  return 2 - 3 * 5 + 4 ;
-  
-};
+  // Write a statement that declares a variable and initializes it to a string.
 
-// Arithmetic 3
-// Add parentheses to the expression so that it evaluates to -4.
-Exercises.arithmetic3 = function() {
-
-  return -1 * 6 * 1 - 4 / 1 * 2;
-  
-};
-
-// Arithmetic 4
-// Fix the values so the expression evaluates to 3.
-Exercises.arithmetic4 = function() {
-
-  return 17 % 11 ;
-  
-};
-
-// Arithmetic 5
-Exercises.arithmetic5 = function() {
-
-  // Evaluate this expression on paper:
-  // ( 3 + -( 2 - 14 ) + 11 % 7 + 8 ) / 2
-
-  // Return that value here:
-  return /* your answer here */ ;
-  
-};
-
-/*-------------------------    SPECIAL NUMBERS    --------------------------*/
-
-// Special Numbers 1
-Exercises.special1 = function () {
-
-  // Use the console to subtract a number from Infinity.
-
-  // Return the result here:
-  return /* your answer here */ ;
+  // Return the variable.
 
 };
 
-// Special Numbers 2
-Exercises.special2 = function () {
+// Variables 4
+Exer.variables4 = function ( n ) {
 
-  // Use the console to divide a number by zero.
-
-  // Return the result here:
-  return /* your answer here */ ;
+  // Return the parameter.
 
 };
 
-// Special Numbers 3
-Exercises.special3 = function () {
+// Variables 5
+Exer.variables5 = function ( n ) {
 
-  // Use the console to subtract Infinity from Infinity.
+  // Declare a new variable and initialize it to the value of `n`.
 
-  // Return the result here:
-  return /* your answer here */ ;
-
-};
-
-// Special Numbers 4
-Exercises.special4 = function () {
-
-  // Use the console to divide a number by Infinity.
-
-  // Return the result here:
-  return /* your answer here */ ;
+  // Return the new variable.
 
 };
 
-/*-----------------------------    STRINGS    ------------------------------*/
+// Variables 6
+Exer.variables6 = function ( stacys ) {
 
-// Strings 1
-// Return a string enclosed in double quotes.
-Exercises.strings1 = function () {
+  // You have 3 apples
+  // (declare a variable named `apples` and initialize it to `3`)
 
-  return /* your answer here */ ;
+  // Stacy gives you more apples
+  // (the parameter `stacys`)
 
-};
-
-// Strings 2
-// Return a string enclosed in single quotes.
-Exercises.strings2 = function () {
-
-  return /* your answer here */ ;
+  // Return the total number of apples you have.
 
 };
 
-// Strings 3
-// Return multi-line string (a string that includes a new line character).
-Exercises.strings3 = function () {
+// Variables 7
+// You have a certain amount of pocket change given by the parameter provided
+Exer.variables7 = function ( change ) {
 
-  return /* your answer here */ ;
+  // You find a quarter.
 
-};
+  // Then you spend a dime on old fashioned candy.
+  // How much money do you have now?
 
-// Strings 4
-// Return the string
-//     'If a string is in single quotes, like this,
-//     you can nest "double quotes".
-//     But don\'t forget to escape your \backslashes\
-//     so you can type "\n"!'
-// (including the enclosing single quotes).
-Exercises.strings4 = function () {
+  // Use type coercion to turn your pocket change into a string add a dollar
+  // sign to the beginning.
 
-  var answer;
-
-  // Uncomment the following line and type your answer:
-  // answer = /* your answer here */ ;
-
-  // Then check the console in spec.html to debug.
-  
-  console.log( "Strings 4:\n" + answer );
-  return answer;
+  // Return that string.
 
 };
 
-// Strings 5
-// Use concatenation to return the string
-// "supercalifragilisticexpialidocious".
-Exercises.strings5 = function () {
 
-  return /* your answerhere */ ;
+/*--------------------    KEYWORDS AND RESERVED WORDS    ---------------------*/
+
+// Keywords 1
+// Uncomment the following function by removing the slash-asterisk pairs.
+// Fix the function so no keywords or reserved words are improperly used.
+/*
+Exer.keywords1 = function ( true, two ) {
+  var new = 2;
+  var const = two+2;
+  true += "2";
+  var function = new + const + true + two;
+  return function;
+};
+*/
+
+/*--------------------------    THE ENVIRONMENT    ---------------------------*/
+
+// Enviroment 1
+// Uncomment the line that does not return an evironment variable.
+Exer.environment1 = function () {
+
+  // return window;
+  // return document;
+  // return history;
+  // return browser;
+  // return navigator;
 
 };
 
-/*-------------------------    UNARY OPERATORS    --------------------------*/
+/*------------------------------    FUNCTIONS    -----------------------------*/
 
-// Unary 1
-// Use the typeof operator to return the type of "Hello, world!"
-Exercises.unary1 = function () {
+// Functions 1
+// Call setPowerLevel and pass it a value over 9000.
+// Call cornTortilla and pass it the values "chicken", "queso", "bacon", and
+// "lime".
+Exer.functions1 = function (recombobulate, setPowerLevel, cornTortilla) {
 
-  return /* your answer here */ ;
-
-};
-
-// Unary 2
-// Use the typeof operator to return the type of NaN.
-Exercises.unary2 = function () {
-
-  return /* your answer here */ ;
+  // Your work here
 
 };
 
-// Unary 3
-// Use the unary minus operator to return a negative number.
-Exercises.unary3 = function () {
 
-  return /* your answer here */ ;
+/*----------------------    THE CONSOLE.LOG FUNCTION    ----------------------*/
 
-};
+// Console 1
+Exer.console1 = function () {
 
-/*-----------------------------    BOOLEANS    -----------------------------*/
-
-// Boolean 1
-// Return true.
-Exercises.boolean1 = function () {
-
-  return /* your answer here */ ;
+  // Output something to the console.
 
 };
 
-// Boolean 2
-// Return false.
-Exercises.boolean2 = function () {
+// Console 2
+Exer.console2 = function ( printme ) {
 
-
-  return /* your answer here */ ;
+  // Print the parameter `printme` to the console.
 
 };
 
-/*---------------------------    COMPARISONS    ----------------------------*/
+// Console 3
+// Use the provided parameter `data` and string concatenation to output
+//     The magic word is "xxxxx"
+// to the console, where the `xxxxx` is the value provided in `data`. Do not
+// change the value of the variable `data`.
+Exer.console3 = function ( data ) {
 
-// Comparisons 1
-// Correct the comparison operators to return true.
-Exercises.compare1 = function () {
-
-  return -16 > 8 ;
-
-};
-
-// Comparisons 2
-Exercises.compare2 = function () {
-
-  // Add one character to correct the operator such that the expression
-  // returns true.
-  return 2 < 2;
-  
-};
-
-// Comparisons 3
-// Correct the comparison operators to return true.
-Exercises.compare3 = function () {
-
-  return "&" > "ampersand" ;
-  
-};
-
-// Comparisons 4
-// Correct the comparison operators to return false.
-Exercises.compare4 = function () {
-
-  return true == true ;
-  
-};
-
-// Comparisons 5
-// Correct the comparison operators to return false.
-Exercises.compare5 = function () {
-
-  return NaN != NaN ;
-  
-};
-
-// Comparisons 6
-// Correct the comparison operators to return false.
-Exercises.compare6 = function () {
-
-  return "cake" != "lie" ;
-  
-};
-
-/*--------------------------    LOGICAL OPERATORS    -----------------------*/
-
-// Logical 1
-// Use NOT (!) to return false.
-Exercises.logic1 = function () {
-
-  return /* your answer here */ ;
+  // your answer here
 
 };
 
-// Logical 2
-// Use NOT (!) to return true.
-Exercises.logic2 = function () {
+// Console 4
+Exer.console4 = function () {
 
-  return /* your answer here */ ;
-
-};
-
-// Logical 3
-// Return the result of ( true AND false ).
-Exercises.logic3 = function () {
-
-  return /* your answer here */ ;
+  // Use comma-separated values to output two things to the console with one
+  // call.
 
 };
 
-// Logical 4
-// Return the result of ( true OR false ).
-Exercises.logic4 = function () {
+// Console 5
+// Do not change the value of the variable `y`.
+Exer.console5 = function ( x, y ) {
 
-  return /* your answer here */ ;
+  // Output the first parameter `x` to the console.
 
-};
-
-// Logical 5
-Exercises.logic5 = function () {
-
-// Evaluate the expression:
-// 1 + 1 == 2 && 10 * 10 > 50
-
-  // Return the result:
-  return /* your answer here */ ;
+  // Make the function return the parameter `y` plus 1.
 
 };
 
-// Logical 6
-// Use the ternary (conditional) operator to
-// return -4 if input is true and
-// return 7 if input is false.
-Exercises.logic6 = function ( input ) {
+/*---------------------------    RETURN VALUES    ----------------------------*/
 
-  // Remove the comments and type your answer:
-  return input /* ? ifTrue : ifFalse */ ;
+// Return 1
+// Call and log out the result of `magicFunc`.
+Exer.return1 = function () {
 
-};
-
-/*-------------------------    UNDEFINED VALUES    -------------------------*/
-
-// Undefined 1
-Exercises.undef1 = function () {
-
-  // Fix the statements so that undefined is returned.
-  return false ;
+  // your work goes here
 
 };
 
-// Undefined 2
-// Return the value null.
-Exercises.undef2 = function () {
+// Return 2
+// Call and return the result of `magicFunc`.
+Exer.return2 = function () {
 
-  return /* your answer here */ ;
-
-};
-
-/*--------------------    AUTOMATIC TYPE CONVERSION    ---------------------*/
-
-// Coercion 1
-// Use null in an arithmetic operation that evaluates to 0.
-Exercises.coercion1 = function () {
-
-  return /* your answer here */ ;
+  // your work goes here
 
 };
 
-// Coercion 2
-// Use arithmetic operators and the strings "-1", "2", and "3" in an
-// expression that evaluates to -5.
-Exercises.coercion2 = function () {
+// Return 3
+Exer.return3 = function () {
 
-  return /* your answer here */ ;
-  
+  // Call `strShift` with the argument "abczABCZ". Log the result.
+
+  // Return that same result with "123" concatenated to the end.
+
 };
 
-// Coercion 3
-// Use arithmetic operators and the strings "-1", "2", and "3" in an
-// expression that evaluates to "-32".
-Exercises.coercion3 = function () {
+// Return 4
+// Log the result of the string concatenation of two separate calls to
+// `magicFunc`.
+Exer.return4 = function () {
 
-  return /* your answer here */ ;
-  
+  // your work goes here
+
 };
 
-// Coercion 4
-// Compare the string "hey!" and null with the not-equal-to operator (!=) in an
-// expression that evaluates to true.
-Exercises.coercion4 = function () {
+// Return 5
+// Shift the string "abcABC123!@#" with strShift.
+// Shift the string "a S d F j K l" with strShift twice.
+// Return the result of these two shifted strings passed into `strShuffle` with
+// the first string as the first argument and the second string as the second
+// argument.
+Exer.return5 = function () {
 
-  return /* your answer here */ ;
-  
+  // Declare and initialize a variable for the first string.
+
+  // Declare and initialize a variable for the second string.
+
+  // A return statement.
+
 };
 
-// Coercion 5
-// Compare nulll and 0 with the equal-to operator (==) in an expression that
-// evaluates to false.
-Exercises.coercion5 = function () {
+/*-------------------------    PROMPT AND CONFIRM    -------------------------*/
 
-  return /* your answer here */ ;
-  
+// Prompt 1
+// Call prompt with the string and return the result.
+Exer.prompt1 = function () {
+
+  // Your work here
+
 };
 
-// Coercion 6
-// Compare true and "true" in an expression that evaluates to false.
-Exercises.coercion6 = function () {
+// Confirm 1
+// Call confirm with the string and return the result.
+Exer.confirm1 = function () {
 
-  return /* your answer here */ ;
-  
+  // Your work here
+
 };
 
-// Coercion 7
-// Use 0, "0", "", false, undefined, null, NaN in an expression that evaluates
-// to true.
-Exercises.coercion7 = function () {
+/*----------------------------    CONTROL FLOW    ----------------------------*/
 
-  return /* your answer here */ ;
-  
+// Control 1
+Exer.control1 = function () {
+
+  // Use prompt to get a number from a user
+
+  // Print that number to the console
+
 };
 
-// Coercion 8
-// Fix the operator to make the expression return false.
-Exercises.coercion8 = function () {
+// Control 2
+Exer.control2 = function ( bar ) {
 
-  return "" == false;
-  
+  // Declare a variable named `foo`.
+
+  // Initialize `foo` with a string.
+
+  // Log `foo` to the console.
+
+  // Concatenate the parameter `bar` to be beginning and end of `foo`
+  // Save the result in a new variable called `ding`.
+
+  // Call `strReverse` and pass it `ding` (as an argument).
+  // Send the result to the user in a confirm window.
+  // Save the user's response in a new variable called `quux`.
+
+  // Return the opposite of `quux`.
+
 };
 
-/*-------------------------    SHORT-CIRCUTING    --------------------------*/
+/*-----------------------    CONDITIONAL EXECUTION    ------------------------*/
 
-// Circuit 1
-// Short-circut the expression so the bad function does not get called.
-Exercises.circuit1 = function () {
-  return true && true && true && badFunction();
+// Conditional 1
+// Expect `isSerious` to be a boolean
+Exer.condition1 = function ( isSerious ) {
+
+  console.log( "Welcome to Camelot!" );
+
+  // If `isSerious` is false, output the message:
+  //     On second thoughts, let's not go to Camelot. It is a silly place.
+
 };
 
-// Circuit 2
-// Short-circut the expression so the bad function does not get called.
-Exercises.circuit2 = function () {
-  return false || false || false || badFunction();
+// Conditional 2
+// Expect `temperature` to be a number
+Exer.condition2 = function ( temperature ) {
+
+  // If temperature is greater than or equal to 70
+  // Then output:
+  //     Hermit crab warning!
+
+  // Otherwise, output
+  //     Catch of the day: influenza, $14/lb.
+
+  // In either case, also print
+  //     Thanks for visiting Pier One and Three Quarters!
+
+};
+
+// Conditional 3
+// Expect `whatDay` to be a string
+Exer.condition3 = function ( whatDay ) {
+
+  // Declare and initialize `luckyNumber`
+
+  // If the length of `whatDay` is 6 or less...
+
+  // If `whatDay` is "Mannersday"...
+  // If `whatDay` is "Foosday"...
+  // If `whatDay` is "Heyday"...
+  // Otherwise...
+
+  // Return `luckyNumber`
+
+};
+
+// Conditional 4
+Exer.condition4 = function () {
+
+  // Prompt the user
+
+  // If the user's input is not a number...
+  // Otherwise...
+    // If the user's input is less than 1...
+    // If the user's input is greater than 31...
+    // If the user's input between 29 and 31, inclusive...
+    // Otherwise...
+
+};
+
+/*----------------------    WHILE AND DO WHILE LOOPS    ----------------------*/
+
+// While 1
+// Turn the code in the function into a while loop.
+Exer.while1 = function () {
+  console.log("10 sheep");
+  console.log("9 sheep");
+  console.log("8 sheep");
+  console.log("7 sheep");
+  console.log("6 sheep");
+  console.log("5 sheep");
+  console.log("4 sheep");
+  console.log("3 sheep");
+  console.log("2 sheep");
+  console.log("1 sheep");
+};
+
+/* jshint ignore:start */
+// While 2
+// Recreate the code in the function without a loop
+Exer.while2 = function () {
+  var deadWitch = "I'm melting!";
+  while(deadWitch.length > 0) {
+    console.log(deadWitch);
+    deadWitch = deadWitch.substr(2);
+  }
+  console.log("What a world!");
+};
+/* jshint ignore:end */
+
+// doWhile 1
+// Turn the code in the function into a single do while loop.
+// Hint: 0, 1, and 2 are remainders from dividing numbers by 3.
+Exer.doWhile1 = function () {
+  console.log(0);
+  console.log(1);
+  console.log(2);
+  console.log(0);
+  console.log(1);
+  console.log(2);
+};
+
+/* jshint ignore:start */
+// doWhile 2
+// Recreate the code in the function without a loop
+Exer.doWhile2 = function () {
+  var trainNum = 1;
+  do {
+    console.log("Train# " + trainNum + ": In flight!?");
+  } while (trainNum++ < 7);
+};
+/* jshint ignore:end */
+
+/*---------------------------    INDENTING CODE    ---------------------------*/
+
+// Indenting 1
+// Correctly indent the following code block using TWO spaces for each block
+Exer.indenting1 = function() {
+var firstName = "Zachery"; var lastName = "Moneypenny"; if(firstName === "Zachery") { lastName = "Johnson"; }
+};
+
+// Indenting 2
+// Correctly indent the following code block using FOUR spaces for each block
+Exer.indenting2 = function() {
+var firstName = "Penny"; var lastName = "Moneywhistle"; if(firstName === "Penny") { lastName = "Johnson"; }
+};
+
+/*-----------------------------    FOR LOOPS    ------------------------------*/
+
+// For 1
+// Rewrite the loop as a linear sequence of statements.
+Exer.for1 = function () {
+
+  var scream;
+  for ( scream = "..." ; scream.length < 28; scream += "AA" ) {
+    console.log( scream );
+    scream = "    " + scream;
+  }
+  scream += "H!"
+  console.log( scream );
+
+};
+
+/* jshint ignore:start */
+// For 2
+// Rewrite the repetative code with for loops.
+Exer.for2 = function () {
+
+  console.log( "Hi!" );
+  console.log( "My name is" );
+  console.log( "My name is" );
+  console.log( "My name is" );
+  console.log( "Slim Shady" );
+  console.log( "Hi!" );
+  console.log( "My name is" );
+  console.log( "My name is" );
+  console.log( "My name is" );
+  console.log( "Slim Shady" );
+
+};
+/* jshint ignore:end */
+
+// For 3
+// Write a loop that counts backwards from 20 to 5 and prints the number and
+// "even" if the number is even and "odd" if the number is odd.
+Exer.for3 = function () {
+
+  // Your work here
+
+};
+
+/*-----------------------    BREAKING OUT OF A LOOP    -----------------------*/
+
+// Breaking 1
+// Use a break to stop this infinite loop
+Exer.breaking1 = function(yeng) {
+
+  while(yeng()) {
+
+  }
+
+};
+
+// Breaking 2
+// Every time theatre.current() is called it returns a string, break when that string is
+// "Electric Boogaloo!"
+Exer.breaking2 = function(theatre) {
+
+  while (theatre.next()) {
+    console.log(theatre.current());
+    if (theatre.current() === "Electric Boogaloo!") {
+      break;
+    }
+  }
+
+};
+
+/*-------------------    UPDATING VARIABLES SUCCINCTLY    --------------------*/
+
+// Succinct 1
+Exer.succinct1 = function ( kiwis ) {
+
+  // Quadruple kiwis.
+
+  // Reduce kiwis by 2.
+
+  // Halve kiwis.
+
+  // Concatenate " handsomely hirsute kiwis" to kiwis.
+
+  // Return kiwis.
+
+};
+
+// Succinct 2
+// Edit the for loop to use the incrementation operator.
+Exer.succinct2 = function () {
+
+  for ( var hippo = 2; hippo <= 10; hippo += 1 ) {
+    console.log( hippo + "! " + hippo + " fluttering hippos! Ah ah ah ah ah!" );
+  }
+
+};
+
+// Succinct 3
+// Correct the decrementation operator error.
+Exer.succinct3 = function () {
+
+  var message = "Reverse me!";
+  var pointer = message.length;
+  while( pointer > 0 ) {
+    console.log( message.charAt( pointer-- ) );
+  }
+
+};
+
+/*-----------------    DISPATCHING ON A VALUE WITH SWITCH    -----------------*/
+
+// Switch 1
+Exer.switch1 = function ( animal ) {
+
+  var output = 'The ' + animal + ' goes "';
+
+  // Create a switch that dispatches on the parameter `animal`.
+  // In each case, concatenate the correct response to end of the `output`
+  // string.
+
+    // "cow": "foo"
+
+    // "sheep": "bar"
+
+    // "duck": "quux"
+
+    // default: "ring-a-ding-ding-dingding-ding-a-ding-ding"
+
+  output += '"!';
+  console.log( output );
+
+};
+
+/*---------------------------    CAPITALIZATION    ---------------------------*/
+
+/* jshint ignore:start */
+Exer.capitalization1 = function() {
+
+  var ZeRo = 0;
+  var HAPPYCAT = new string("How did this get here! I'm not good at computer!");
+  for (var Index = 0; I < HAPPYCAT.Length; Index++) {
+    if (Index % 4 == ZeRo) {
+      Console.Log(HAPPYCAT);
+    }
+  }
+
+};
+/* jshint ignore:end */
+
+/*------------------------------    COMMENTS    ------------------------------*/
+
+Exer.comments1 = function ( war, missiles, wood, sheep, brick ) {
+
+  if ( war ) {
+    if ( missiles ) {
+      missiles.launch();
+    } else {
+      cower();
+    }
+  } else {
+    if ( wood ) {
+      wood.trade( sheep, 1 );
+    } else if ( sheep ) {
+      sheep.trade( wood, 3 );
+    } else {
+      brick.buy(2);
+    }
+  }
+
+};
+
+Exer.comments2 = function () {
+
+  // your work here
+
 };
