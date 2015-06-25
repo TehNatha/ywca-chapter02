@@ -1,0 +1,31 @@
+{
+  "name": "ywca-chapter01",
+  "version": "0.1.1",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "TehNatha/ywca-chapter01",
+  "author": {
+    "name": "Nathan",
+    "email": "nathan.stier@gmail.com",
+    "url": "https://github.com/TehNatha"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ywca",
+    "core",
+    "exercises",
+    "chapter01"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "jasmine": "^2.3.1",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
