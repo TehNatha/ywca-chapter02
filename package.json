@@ -11,7 +11,8 @@
     "url": "https://github.com/TehNatha"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node spec/index.js",
+    "npm": "node index.js"
   },
   "keywords": [
     "ywca",
