@@ -1,8 +1,6 @@
+var CustomReporter = require('./spec/reporter')
 var Jasmine = require('jasmine')
 var jasmine = new Jasmine()
-
-console.log(__dirname)
-console.log(process.cwd())
 
 jasmine.loadConfig({
     spec_dir: 'node_modules/ywca-chapter02/spec/',
@@ -20,5 +18,7 @@ jasmine.loadConfig({
         '../../../chapter02/fizzbuzz.js'
     ]
 });
+
+jasmine.addReporter(CustomReporter)
 
 jasmine.execute()
