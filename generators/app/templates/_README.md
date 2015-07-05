@@ -6,7 +6,7 @@ These are the instructions for the exercises in Chapter 2\. Remember that all
 your work will be done in the `index.js` file (in your text editor), and you can
 check your work by
 
-    $ ywca test chapter01 | less
+    $ ywca test chapter02 --color | less
 
 ### Exercises
 
@@ -79,7 +79,7 @@ These exercises correspond to [this section of the text](http://eloquentjavascri
     <tr>
       <th>Variables 4</th>
       <td>
-        A parameter `n` is passed into the function. Return the parameter.
+        A parameter <code>n</code> is passed into the function. Return the parameter.
       </td>
     </tr>
     <tr>
@@ -411,7 +411,7 @@ These exercises correspond to [this section of the text](http://eloquentjavascri
       <td>
         <p>
           In this exercise you will need to make use of a function called
-          <code>strReverse<code> that takes one string argument and returns a
+          <code>strReverse</code> that takes one string argument and returns a
             new string that is the reverse.
           </p>
         <p>
@@ -632,7 +632,7 @@ console.log(2);</pre>
 <pre>var trainNum = 1;
 do {
   console.log("Train# " + trainNum + ": In flight!?");
-} while (trainNum++ < 7);</pre>
+} while (trainNum++ &lt; 7);</pre>
         <p>Recreate this code using without using a loop.</p>
       </td>
     </tr>
@@ -781,13 +781,13 @@ These exercises correspond to [this section of the text](http://eloquentjavascri
             Concatenate <code> handsomely hirsute kiwis</code> to
             <code>kiwis</code> (remember the leading space).
           </li>
-          <li>Return <code>kiwis<code>.</li>
+          <li>Return <code>kiwis</code>.</li>
         </ol>
       </td>
     </tr>
     <tr>
       <th>Succinct 2</th>
-      <td>Edit the <code>for<code> loop to use the incrementation operator.</td>
+      <td>Edit the <code>for</code> loop to use the incrementation operator.</td>
     </tr>
     <tr>
       <th>Succinct 3</th>
@@ -912,7 +912,7 @@ See the instructions at [the end of chapter 2](http://eloquentjavascript.net/02_
 
 Write your solution in `triangle.js`. Run the tests with
 
-    $ ywca test chapter02 | less
+    $ ywca test chapter02 --color | less
 
 <br />
 
@@ -926,7 +926,7 @@ See the instructions at [the end of chapter 2](http://eloquentjavascript.net/02_
 
 Write your solution in `fizzbuzz.js`. Run the tests with
 
-    $ ywca test chapter02 | less
+    $ ywca test chapter02 --color | less
 
 <br />
 
@@ -956,4 +956,4 @@ If there is no `n`, `n || 8` will default to `8`.
 
 Run the tests with
 
-    $ ywca test chapter02 | less
+    $ ywca test chapter02 --color | less
