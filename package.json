@@ -1,6 +1,6 @@
 {
   "name": "ywca-chapter02",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "index.js",
@@ -11,7 +11,8 @@
     "url": "https://github.com/TehNatha"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node spec/index.js",
+    "npm": "node index.js"
   },
   "keywords": [
     "ywca",
